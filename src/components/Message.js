@@ -1,4 +1,3 @@
-// components/Message.js
 
 import React, { useState, useRef } from 'react';
 import { useDispatch } from 'react-redux';
@@ -62,7 +61,7 @@ const Message = ({ message }) => {
     setOpenDeleteDialog(false); // Close confirmation dialog
   };
 
-  // فرمت‌بندی زمان ارسال پیام
+
   const formattedTime = format(new Date(message.timestamp), 'HH:mm');
 
   return (
@@ -104,7 +103,7 @@ const Message = ({ message }) => {
                 </Button>
                 <Button 
                   size="small" 
-                  onClick={handleOpenDeleteDialog} // Open dialog on click
+                  onClick={handleOpenDeleteDialog}
                   variant="outlined"
                   style={{ 
                     marginLeft: '5px', 

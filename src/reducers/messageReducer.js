@@ -1,5 +1,3 @@
-// reducers/messageReducer.js
-
 const initialState = [];
 let nextId = 1;
 
@@ -46,7 +44,7 @@ const messageReducer = (state = initialState, action) => {
 
 export default messageReducer;
 
-// Action creator برای حذف پیام
+
 export const deleteMessage = (id) => {
   return {
     type: 'DELETE_MESSAGE',

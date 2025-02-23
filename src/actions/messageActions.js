@@ -1,4 +1,3 @@
-// actions/messageActions.js
 
 export const addMessage = (text, parentId = null, level = 1) => {
     return {
@@ -7,7 +6,7 @@ export const addMessage = (text, parentId = null, level = 1) => {
     };
   };
   
-  // افزودن تابع deleteMessage
+
   export const deleteMessage = (id) => {
     return {
       type: 'DELETE_MESSAGE',
