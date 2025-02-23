@@ -1,0 +1,11 @@
+.chat-message-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .chat-message-actions button {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
